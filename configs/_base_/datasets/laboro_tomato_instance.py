@@ -1,6 +1,6 @@
 # dataset settings
 dataset_type = 'LaboroTomato'
-data_root = 'data/laboro_tomato/'
+data_root = '/content/data/laboro_tomato/'
 _base_ = 'laboro_tomato_base.py'
 img_norm_cfg = dict(
     mean=[123.675, 116.28, 103.53], std=[58.395, 57.12, 57.375], to_rgb=True)
